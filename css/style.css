@@ -1,0 +1,113 @@
+@import url("font-family: 'Press Start 2P', cursive;");
+
+:root {
+    --primary-color: blue;
+    --dark-color: rgb(0, 0, 88);
+    --light-color: rgb(136, 136, 255);
+    --lose-color: red;
+    --win-color: green;
+    --modal-duration: 1s;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.6s;
+    background: url("https://memeguy.com/photos/images/rock-paper-scissors-153097.jpg");
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2 rem;
+    text-align: center;
+}
+
+.restart-btn {
+    display: none;
+    background: var(--light-color);
+    color: ;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointers;
+    outline: none;
+    border: none;
+}
+
+.restart-btn:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.header {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+}
+
+.score {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.2rem;
+    color: white; 
+}
+
+.score p:first-child {
+    background: var(--primary-color);
+}
+
+.score p:last-child {
+    background: var(--dark-color);
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.choice {
+    cursor: pointer;
+}
+
+.choice:hover {
+    color: var(--primary-color);
+}
+
+/*Desktop*/
+@media only screen and (max-width: 980px) {
+	.wrapper {
+	  width:100%;
+	}
+	ul {
+	  float: right;
+	  margin-left: 0px;
+	  position: relative;
+	  right: none;
+	}
+  }
+  
+  /*Tablet*/
+  @media only screen and (max-width: 768px) {
+	.wrapper {
+	  width:100%;
+	}
+  }
+  
+  /*Phone*/
+  @media only screen and (max-width: 640px) {
+	.wrapper {
+	  width:100%;
+    }
+}
