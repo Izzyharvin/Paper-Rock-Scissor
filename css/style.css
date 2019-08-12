@@ -1,4 +1,4 @@
-@import url("font-family: 'Press Start 2P', cursive;");
+/* @import url("font-family: 'Press Start 2P', cursive;"); */
 
 :root {
     --primary-color: blue;
@@ -38,6 +38,7 @@ body {
     cursor: pointers;
     outline: none;
     border: none;
+    margin-bottom: 1rem;
 }
 
 .restart-btn:hover {
@@ -84,6 +85,15 @@ body {
 .choice:hover {
     color: var(--primary-color);
 }
+
+.text-win {
+    color: var(--win-color);
+}
+
+.text-lose {
+    color: var(--lose-color);
+}
+
 
 /*Desktop*/
 @media only screen and (max-width: 980px) {
