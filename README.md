@@ -16,10 +16,17 @@ You playing against the computer; Paper beats rock, rock beats scissors, scissor
 * logic.js
  
 # How to play the game
-Step 1: Open link https://izzyharvin.github.io/Paper-Rock-Sissor/<br>
-![Game](./pictures/Game.png)<br>
+Step 1: Open link https://izzyharvin.github.io/Paper-Rock-Sissor/
+<br>
+![Game](./pictures/Game.png)
+<br>
 Step 2: Start playing the game and choose from paper, rock, scissors.
-Step 3: You either Win, Lose, or Draw<br>
-![Win](./pictures/Win.png)<br>
-![Lose](./pictures/Lose.png)<br>
-![Draw](./pictures/Draw.png)<br>
+<br>
+Step 3: You either Win, Lose, or Draw
+<br>
+![Win](./pictures/Win.png)
+<br>
+![Lose](./pictures/Lose.png)
+<br>
+![Draw](./pictures/Draw.png)
+<br>
