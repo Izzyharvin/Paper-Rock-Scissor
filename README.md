@@ -1,4 +1,4 @@
-# Paper-Rock-Sissor
+# Paper-Rock-Scissor
 This is the basic game called Paper, Rock, Scissor.
 
 # Objective
